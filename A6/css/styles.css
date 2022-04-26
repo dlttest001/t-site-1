@@ -1,0 +1,58 @@
+
+body{
+ background-color: white;
+}
+
+table, th, td{
+ border: 1px solid tomato;
+ border-collapse: collapse;
+}
+
+table {
+ width: 50%; 
+}
+caption {
+ color: rgb(129, 199, 21); 
+ font-size: 28px; 
+}
+
+tr:nth-child(old){
+ background-color: rgb(255, 192, 203);
+}
+
+tr:nth-child(even){
+ background-color: #FFE4B5;
+}
+
+tr:hover {
+ background-color: tomato; 
+}
+
+th,td{ padding: 30px; }
+
+th {
+ text-align: left;
+}
+
+
+h1{ 
+ color: blue; background-color:tomato; 
+ font-family: verdana; text-align:center; 
+ border: 3px solid green;  padding: 15px; margin: 15px; 
+}
+
+h2 {
+ color: blue; font-size: 160%; font-family: courier; 
+ text-align:center; 
+} 
+
+h3{ 
+ color: tomato; 
+ font-family: arial; 
+ margin: 10px; 
+}
+
+p{ 
+ font-family: arial; 
+}
+
