@@ -1,0 +1,186 @@
+
+
+body.background {
+    background-image: url("../Images/background.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    /*border:solid;*/
+    background-size: cover;
+}
+
+/*menu Setting*/
+#thislink{
+    text-decoration:none;
+}
+
+tr.profile {
+ vertical-align: top;
+}
+th.name{
+    width:35%;
+    Font-Family:'courier new';
+    text-align:left;
+    padding-left:100px;
+}
+table.menu{
+    text-align: center;
+    border:solid;
+}
+th.menu{
+    width:16.25%;
+    /*border: 1px solid black;*/
+}
+a.menu{
+    font-family:'courier new';
+    color:black
+}
+a.menu:hover{
+    color:rgba(121, 77, 11, 0.705)
+}
+/* The line below the menu */
+hr.menu{
+    width: auto;
+    /*margin-top: 30px;*/
+    border-top: 2px solid black;
+}
+
+/* Body setting*/
+body.background{
+    /*background-color: gray;*/
+}
+
+/* Index page setting*/
+p.content{
+    font-family:'Arial';
+    align:left top;
+    padding-bottom:600px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+th.image{
+    /*background-image: url("../Images/zac cv.jpg");*/
+    width:30%;
+    padding-bottom:300px;
+}
+th.center{
+    width:20%;
+}
+
+/* Education page Setting */
+th.header {
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: 60px;
+    padding-left: 465px;
+    padding-top: 40px;
+}
+
+table.general{
+    border: solid;
+}
+
+td.left-bar {
+    // width: 30%;
+    // height: 600px;
+    text-align: center;
+}
+td.main {
+    // width: 70%;
+    text-align: left;
+    font-family: 'Courier New';
+    font-size: 30px;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+table.general {
+    width: 100%;
+    height: 390px;
+}
+img.education {
+    width: 70%;
+    opacity: 80%;
+    padding-top: 15px;
+}
+p.para1 {
+    font-size: 33px;
+}
+
+/* Work experience page Setting */
+.left {
+    text-align: left;
+}
+
+table.WorkExperience{
+    border: solid;
+}
+
+th.title {
+    text-align: center;
+}
+
+ul.WorkExperience{
+    text-align: left;
+    font-size: 26px;
+}
+
+/* Skills page Setting*/
+th.head{
+    font-family: Times New Roman;
+    font-size:50px;
+
+}
+
+th.skills {
+ 
+}
+th.zp {
+    text-align:left;
+}
+
+.LOS{
+    text-align:left;
+    font-family:courier new;
+    font-size:25px;
+}
+
+
+/* Contract page Setting*/
+table.ContactMain{
+    width: 100%;
+    // border: solid;
+    vertical-align: top;
+}
+table.Contact{
+    width: 100%;
+    // border: solid;
+    // border-spacing: 10px 10px;
+}
+th.ContactMain{
+    text-align: left;
+    font-size: 30px;
+}
+td.ContactMain{
+    font-family:'courier new';
+    font-size:25px;
+    font-weight:bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+span.ContactMain{
+    border-bottom: 2px solid #b0e0e6;
+    box-shadow: inset 0 -2px 0 #b0e0e6;
+}
+span.ContactMain:hover{
+    background-color: blanchedalmond;
+    border-bottom: revert;
+    box-shadow: revert;
+}
+
+img.ContactMain{
+    width: 40px;
+    vertical-align: middle;
+}
+
